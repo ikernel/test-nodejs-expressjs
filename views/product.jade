@@ -1,0 +1,18 @@
+doctype
+html
+    head
+        title Admin
+        link(href='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css'  rel="stylesheet")
+        link(href='./css/style.css' rel="stylesheet" )
+
+    body
+        section
+            .container-fluid
+                .row
+                    each item in producto
+                        .col-xs-12.col-md-3
+                            img.img-responsive(src="#{item.image_url}")
+                            h2.text-center #{item.name}
+                            h3.text-center #{item.price}
+                            hr
+                            h4.text-center #{item.description}

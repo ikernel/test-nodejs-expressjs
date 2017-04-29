@@ -1,0 +1,85 @@
+.menu {
+    width: 100%;
+    background: #333;
+    padding: 10px;
+    position: fixed;
+    z-index: 1000;
+}
+
+.menu ul {
+    float: left;
+    width: 100%;
+    list-style: none;
+}
+
+.menu ul li {
+    float: left;
+}
+
+.menu ul li a {
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+    display: block;
+}
+
+.menu ul li a:hover {
+    color: #ff4521;
+}
+
+header {
+    padding: 150px;
+    background: #16a085
+}
+
+header img {
+    margin: 0 auto;
+    display: block; /* Para centrar la imagen al medio */
+}
+
+/* Siempre un header por pagina HTML */
+header h1, header h3 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+header hr, section hr {
+    border: 4px solid #f8f8f8;
+    width: 200px;
+}
+
+section {
+    padding: 150px;
+}
+
+section h2 {
+    text-align: center;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+section p {
+    color: #fff;
+    font-size: 20px;
+}
+
+section.bg {
+    background: #34495a
+}
+
+section.contact {
+    background: #ecf0f1;
+}
+
+section input {
+    margin-bottom: 10px;
+    border-radius: 0px;
+}
+
+section label {
+    color: #9b59b6;
+    font-
+}
+
+section 

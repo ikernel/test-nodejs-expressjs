@@ -1,0 +1,54 @@
+doctype
+html
+    head
+        title Mi primera página en node
+        link(href='https://maxcdn.boostrapcdn.com/boostrap/3.3.7/css/bostrap.min.css' rel="stylesheet")
+        link(href='/css/style.css' rel="stylesheet")
+
+    body
+        nav.menu
+            ul
+                li
+                    a Inicio
+                li
+                    a Productos
+                li
+                    a About
+                li
+                    a contacto
+        header
+            .container-fluid
+                .row
+                    .col-xs-12.col-md-12
+                        img.img-responsive(src="/images/profile.png")
+                        h2.title El titulo que yo quería
+                        hr.hr
+                        h3.subtitle El subtitulo correspondiente
+
+        section
+            .container-fluid
+                .row
+                    .col-xs-12.col-md-12
+                        h2 About
+                        hr
+                        p lorem ipsom
+
+                        p lorim ipsum loreley
+
+
+        section
+            .container-fluid
+                .row
+                    .col-xs-12.col-md-12
+                        form
+                            label Nombre
+                            input.form-control(type="text" name="nombre" placeholder="Introduce tu nombre")
+                            label Correo
+                            input.form-control(type="text" name="correo" placeholder="Introduce tu correo")
+                            label Telefono
+                            input.form-control(type="text" name="telefono" placeholder="Introduce tu teléfono")
+                            label Mensaje
+                            input.form-control(name="mensaje" placeholder="Introduce tu mensaje")
+                            br
+                            input.form-control(type="submit" value="Enviar" class="btn-danger")
+
